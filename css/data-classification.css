@@ -1,0 +1,62 @@
+
+body{
+ font-family:Georgia,Baskerville,Palatino,'Palatino Linotype','Book Antiqua','Times New Roman',serif;
+}
+
+
+#header2{
+  font-size:30px;
+  margin:10px;
+}
+
+
+
+.mytable,th,td{
+	
+  border: 1px solid black;
+  padding: 5px;
+}
+
+td{
+
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 12px;
+}
+
+.mytable{
+  align:center;
+  margin-top:40px;
+}
+
+.image{
+  padding:20px;
+}
+
+
+.nav {
+  text-align: center;
+}
+.nav li {
+ padding-right: 1px;
+ vertical-align: bottom;
+}
+.nav a {
+  padding: 4px 10px;
+}
+
+
+.nav > li
+{
+  
+  display:inline-block;
+  
+  border:1px solid black;
+  
+}
+
+li { padding: 0; }
+li a { display: block; }
+
+li > a:focus{
+  background-color: #1e1e1e;
+}

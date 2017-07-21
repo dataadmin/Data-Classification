@@ -1,0 +1,257 @@
+body{
+	<!-- font-family:Georgia,Baskerville,Palatino,'Palatino Linotype','Book Antiqua','Times New Roman',serif;-->
+	font-family:'Times New Roman';
+}
+.main{
+	padding:8px;
+	height:50px;
+	background: #15317E;
+	font-size: 20px;
+	text-align:center;
+	border:double black;
+	
+}
+
+.triangle {
+	width: 0;
+	height: 0;
+	border: solid 30px;
+	margin: 20px;
+}
+
+#heading1{
+	height:50px;
+	background: RGB(184,172,205);
+	
+	text-align:center;
+	border:double black;
+}
+
+#heading2,#heading3,#heading4,#heading5{
+	height:50px;
+	//background: RGB(243,200,165); /* For Safari 5.1 to 6.0 */
+	background: RGB(15,111,198);
+	text-align:center;
+	border:double black;
+	color:white;
+	padding-top:10px;
+}
+
+.container {
+	
+	margin-top:5px;
+}
+
+.lifecycle{
+	position:relative;
+	text-align:center;
+}
+
+.device{
+	
+	display: inline-block;
+	
+}
+
+.btnPhase{
+	margin: 20px 20px 20px 20px;
+	height:40px;
+	width:130px;
+	border:double black; 
+	background: RGB(15,111,198);  /* For Safari 5.1 to 6.0 */
+	position: relative;
+	color:white;
+}
+
+.btnDevice{
+
+	font-size:10px;
+	height:40px;
+	width:100px;
+	border:double black;
+	background: RGB(15,111,198); /* For Safari 5.1 to 6.0 */
+	position: relative;
+	color:white;
+}	
+
+/*slide panel*/
+
+#accessDevice, .targetDiv{
+	padding: 5px;
+	text-align: center;
+	
+}
+
+#flipPanel3,#flipPanel4,#flipPanel5 {
+	padding: 5px;
+	text-align: center;
+	
+	border: solid 1px ;
+}
+
+#flipPanel3, #flipPanel4,#flipPanel5,#accessDevice,.targetDiv{
+	padding: 40px;
+	display: none;
+	
+}
+
+
+.testing{
+	text-align:center;
+	margin:20px;
+	border-style: dashed;
+	border-color: gray;
+	border-width:1px;
+
+}
+
+.aaa, .bbb, .ccc
+{
+	margin: 20px;
+	font-size:10px;
+	height:40px;
+	width:100px;
+	border:double black;
+	background: RGB(15,111,198); 
+	color:white;
+
+}
+
+.longBtn{
+	height: 110px;
+	color:white;
+	font-size:10px;
+	width:100px;
+	border:double black;
+	background: RGB(15,111,198); 
+}
+
+.longBtnMultiple{
+	height: 30px;
+	margin:0;
+	color:white;
+	font-size:10px;
+	width:80px;
+	background: RGB(15,111,198); 
+	
+}
+
+.longBtn3{
+	height: 40px;
+	margin-top:20px;
+	font-size:10px;
+	width:100px;
+	border:double black;
+	background: RGB(15,111,198); 
+	color:white;
+}
+
+
+.longBtn1{
+	height: 110px;
+	margin: 20px;
+	font-size:10px;
+	width:110px;
+	border:double black;
+	background: RGB(15,111,198); 
+	color:white;
+}
+
+
+.longBtn2{
+	height: 180px;
+	margin: 20px;
+	font-size:10px;
+	width:100px;
+	border:double black;
+	background: RGB(15,111,198); 
+	color:white;
+}
+
+th{
+	text-align:center;
+	padding: 10px;
+}
+
+td{
+	padding: 5px;
+	text-align:left;
+	//font-family: Calibri;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 12px;
+}
+
+
+.mytable{
+	margin:auto;
+
+}
+
+.modal-footer{
+	text-align:center;
+}
+
+.paperRecords, .electronicRecords,.spokenInformation{
+	display:none;
+}
+
+.paperRecordsStore, .electronicRecordsStore,.spokenInformationStore{
+	display:none;
+}
+
+.paperRecordsUse, .electronicRecordsUse,.spokenInformationUse{
+	display:none;
+}
+
+.paperRecordsShare, .electronicRecordsShare,.spokenInformationShare{
+	display:none;
+}
+
+.paperRecordsArchive, .electronicRecordsArchive,.spokenInformationArchive{
+	display:none;
+}
+
+.paperRecordsDispose, .electronicRecordsDispose,.spokenInformationDispose{
+	display:none;
+}
+
+.mytable,th,td{
+	
+	border: 1px solid black;
+}
+
+
+#header2{
+	font-size:30px;
+	margin:10px;
+
+}
+
+.nav {
+	text-align: center;
+}
+.nav li {
+	padding-right: 1px;
+	vertical-align: bottom;
+}
+.nav a {
+	padding: 4px 10px;
+}
+
+
+.nav > li
+{
+	
+	display:inline-block;
+	
+	border:1px solid black;
+	padding: 0;  
+}
+
+li { padding: 0; }
+li a { display: block; }
+
+li > a:focus{
+	background-color: blue;
+}
+

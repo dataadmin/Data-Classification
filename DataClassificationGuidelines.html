@@ -1,0 +1,119 @@
+<html>
+<head>
+	<title> Data Security </title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="../SiteAssets/datasec/css/bootstrap.min.css">
+	<script src="../SiteAssets/datasec/js/jquery.min.js"></script>
+	<script src="../SiteAssets/datasec/js/bootstrap.min.js"></script>
+
+	<!-- Our own css -->
+	<link rel="stylesheet" type="text/css" href="../SiteAssets/datasec/css/data-classification.css">
+</head>
+
+<body class= "container-fluid">
+
+	<header id="header" class="col-sm-12" style="margin-bottom: 30px; margin-top: -15px">
+
+		<div>
+			<div id="header2"><center><h1>Categorizing and Securing Institutional Data</h1> </center></div>
+			<center><p><i>This is a guide to the process of categorizing university data by the level of risk to 
+				ensure that its confidentiality, integrity and appropriate availability are not compromised in the running of 
+				university business. This process considers that data is protected and in compliance with both government regulations 
+				and institutional policies from the time it is created until it is disposed. The four center tabs with lock 
+				icons below provide definitions and examples of data at each risk level as indicated by the number of locks.
+				The last tab on the right presents guidelines on how to safeguard data through its lifecycle.
+			</i></font></p></center>
+		</div>
+		
+
+		<nav>
+			<ul class="nav nav-tabs nav-justified">
+				<li style="border: 1px solid #ddd; border-width: 1px 1px 0; background-color:RGB(212,212,212);">
+					<a href="Data%20Classification%20Guidelines.aspx" style="position:absolute; top:0; bottom:0; left:0; right:0; padding-top: 20px;"><b>How to Classify Data</b></a>
+				</li>
+				<li style="border: 1px solid #ddd; border-width: 1px 1px 0;">
+					<a href="4locks.aspx" ><img border="0" alt="4 Lock" src="../SiteAssets/datasec/images/4 Locks.png" width="180" height="40"></a>
+				</li>
+				<li style="border: 1px solid #ddd; border-width: 1px 1px 0;">
+					<a href="3locks.aspx"><img border="0" alt="3 Lock" src="../SiteAssets/datasec/images/3 Locks-small.png" width="140" height="40"></a>
+				</li>
+				<li style="border: 1px solid #ddd; border-width: 1px 1px 0;">
+					<a href="2locks.aspx"><img border="0" alt="2 Lock" src="../SiteAssets/datasec/images/2 Locks-small.png" width="90" height="40"></a>
+				</li>
+				<li style="border: 1px solid #ddd; border-width: 1px 1px 0;">
+					<a href="1lock.aspx"><img border="0" alt="1 Lock" src="../SiteAssets/datasec/images/1 Unlocked-small.png" width="50" height="40"></a>
+				</li>
+				<li style="border: 1px solid #ddd; border-width: 1px 1px 0;">
+					<a href="data-security.aspx" style="position:absolute; top:0; bottom:0; left:0; right:0; padding-top: 20px;"><b>How to Safeguard Data</b></a>
+				</li>
+			</ul>
+		</nav>
+
+	</header>
+
+
+	<div align="center">
+		<table class="mytable">
+			<col width="300">
+			<col width="300">
+			<col width="400">
+			<tr>
+				<th>RISK LEVEL DEFINITION</th>
+				<th>DATA TYPE DEFINITION</th>
+				<th>RISK LEVEL</th>
+			</tr>
+			<tr>
+				<td  valign="top">
+					Unauthorized public disclosure, alteration, or loss of this data would result in criminal or civil penalties, identity theft, financial loss, invasion of privacy and will have serious adverse effects on the University's reputation, resources, services, or individuals.
+				</td>
+				<td  valign="top">
+					Data that the university is obligated to safeguard by law, regulation, industry standards, and/or contract, using the most secure controls.
+				</td>
+				<td>
+					<p><b>High Risk Level</b></p>
+					<a href="4locks.aspx"><img border="0" alt="4 Lock" src="../SiteAssets/datasec/images/4 Locks.png" width="240" height="auto"></img></a>
+				</td>
+			</tr>
+			<tr>
+				<td  valign="top">
+					Unauthorized public disclosure, alteration, or loss of this data would adversely affect the University's mission, reputation, services, safety, finances, resources or individuals.
+				</td>
+				<td  valign="top">
+					Data that is not for public consumption and requires protection based on law, regulation, university-wide policy and/or internal procedures, taking into account proprietary, ethical, business practice or privacy implications.
+				</td>
+				<td>
+					<p><b>Medium Risk Level</b></p>
+					<a href="3locks.aspx"><img border="0" alt="3 Lock" src="../SiteAssets/datasec/images/3 Locks.png" width="180" height="auto"></img></a>
+				</td>
+			</tr>
+			<tr>
+				<td  valign="top">
+					Unauthorized public disclosure or loss of this data would not cause material harm and is unlikely but could pose risk to the University's mission, reputation, services, resources and individuals.  
+				</td>
+				<td  valign="top">
+					Data that university could publish by laws and regulations but has chosen to keep confidential. Its handling is based on university or department/unit protocols or procedures.
+				</td>
+				<td>
+					<p><b>Low Risk Level</b></p>
+					<a href="2locks.aspx"><img border="0" alt="2 Lock" src="../SiteAssets/datasec/images/2 Locks.png" width="130" height="auto"></img></a>
+				</td>
+			</tr>
+			<tr>
+				<td  valign="top">
+					Public disclosure or loss of this data poses no risk to the University's mission, reputation, services, safety, finances, resources and individuals.  
+				</td>
+				<td  valign="top">
+					Data that may, or must, be available and accessible to the general public with no expectation for privacy, risk or confidentiality. There are no legal and institutional limitations on its access or use.
+				</td>
+				<td>
+					<p><b>No Risk Level</b></p>
+					<a href="1locks.aspx"><img border="0" alt="1 Lock" src="../SiteAssets/datasec/images/1 Unlocked-small.png" width="70" height="auto"></img></a>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
