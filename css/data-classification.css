@@ -1,4 +1,3 @@
-
 body{
  font-family:Georgia,Baskerville,Palatino,'Palatino Linotype','Book Antiqua','Times New Roman',serif;
 }
@@ -34,11 +33,25 @@ td{
 
 
 .nav {
-  text-align: center;
+    text-align: center;
+    width:100%;
+    display:table;
+    margin: 0;
 }
 .nav li {
- padding-right: 1px;
- vertical-align: bottom;
+    padding-right: 1px;
+    vertical-align: bottom;
+    float:none;
+    display:table-cell;
+    text-align:center;
+    float: right;
+    display: inline-block;
+    width: auto;
+    float: none;
+    text-align: center;
+    direction: rtl;
+    width:10%;
+    font-size:12px;    
 }
 .nav a {
   padding: 4px 10px;
@@ -49,10 +62,10 @@ td{
 {
   
   display:inline-block;
-  
   border:1px solid black;
   
 }
+
 
 li { padding: 0; }
 li a { display: block; }
@@ -60,3 +73,6 @@ li a { display: block; }
 li > a:focus{
   background-color: #1e1e1e;
 }
+
+
+

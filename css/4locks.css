@@ -25,11 +25,38 @@ td{
 	align:center;
 }
 
+
+.image{
+  padding:20px;
+}
+
+
 .nav {
-	text-align: center;
+  text-align: center;
 }
 .nav li {
-	padding-right: 1px;
-	vertical-align: bottom;
+ padding-right: 1px;
+ vertical-align: bottom;
 }
+.nav a {
+  padding: 4px 10px;
+}
+
+
+.nav > li
+{
+  
+  display:inline-block;
+  border:1px solid black;
+  
+}
+
+li { padding: 0; }
+li a { display: block; }
+
+li > a:focus{
+  background-color: #1e1e1e;
+}
+
+
 
