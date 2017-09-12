@@ -4,21 +4,21 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	    <!-- Bootstrap -->
-    <link rel="stylesheet" href="../SiteAssets/datasec/css/bootstrap.min.css"/>
-    <script src="../SiteAssets/datasec/js/jquery.min.js"></script>
-    <script src="../SiteAssets/datasec/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../SiteAssets/guidelines-and-security/css/bootstrap.min.css"/>
+    <script src="../SiteAssets/guidelines-and-security/js/jquery.min.js"></script>
+    <script src="../SiteAssets/guidelines-and-security/js/bootstrap.min.js"></script>
 
-	<link rel="stylesheet" href="../SiteAssets/datasec/css/data-security.css"/>
+	<link rel="stylesheet" href="../SiteAssets/guidelines-and-security/css/data-security.css"/>
 
-	<script src="../SiteAssets/datasec/js/security.js"></script>
+	<script src="../SiteAssets/guidelines-and-security/js/security.js"></script>
 
 </head>
 
 <body class= "container-fluid">
 
-	<header id="header" class="col-sm-12" style="margin-top: -145px">
+  	<header id="header" class="col-sm-12" style="margin-bottom: 30px; margin-top: -15px">
 		<div>
-			<div id="header2"><center><h1>Categorizing and Securing Institutional Data</h1> </center></div>
+			<div id="header2"><center><h1 style="color:black;">Categorizing and Securing Institutional Data</h1> </center></div>
 			<center><p><i>This is a guide to the process of categorizing university data by the level of risk to 
 				ensure that its confidentiality, integrity and appropriate availability are not compromised in the running of 
 				university business. This process considers that data is protected and in compliance with both government regulations 
@@ -27,29 +27,32 @@
 				The last tab on the right presents guidelines on how to safeguard data through its lifecycle.
 			</i></p></center>
 		</div>
+
+
+<nav>
+<ul class="nav nav-pills nav-justified">
+  <li role="presentation" style="width:185px"><a href="data-classification-guidelines.aspx" style="height:70px;"><b>How to Classify Data</b></a></li>
+
+  <li role="presentation" style="width:230px">
+          <a href="4locks.aspx" ><img border="0" alt="4 Locks" src="../SiteAssets/guidelines-and-security/images/4 Locks.png" height="50"></a>
+  </li>
+  <li role="presentation" style="width:185px">
+          <a href="3locks.aspx" ><img border="0" alt="3 Locks" src="../SiteAssets/guidelines-and-security/images/3 Locks.png" height="50"></a>
+  </li>
+    <li role="presentation" style="width:185px">
+          <a href="2locks.aspx" ><img border="0" alt="2 Locks" src="../SiteAssets/guidelines-and-security/images/2 Locks.png" height="50"></a>
+  </li>
+
+  <li role="presentation" style="width:185px">
+      <a href="1locks.aspx" ><img border="0" alt="4 Locks" src="../SiteAssets/guidelines-and-security/images/1 Lock.png" height="50"></a>
+  </li>
+  <li role="presentation" class="active" style="width:185px"><a href="data-security.aspx" style="height:70px"><b>How to Safeguard Data<b></a></li>
+</ul>
+
+</nav>
+
 	</header>
-
-	<ul class="nav nav-tabs nav-justified">
-			<li style="border: 1px solid #ddd; border-width: 1px 1px 0;">
-				<a href="Data%20Classification%20Guidelines.aspx" style="position:absolute; top:0; bottom:0; left:0; right:0; padding-top: 20px;"><b>How to Classify Data</b></a>
-			</li>
-			<li style="border: 1px solid #ddd; border-width: 1px 1px 0;">
-				<a href="4locks.aspx" ><img border="0" alt="4 Lock" src="../SiteAssets/datasec/images/4 Locks-small.png" width="180" height="40"></a>
-			</li>
-			<li style="border: 1px solid #ddd; border-width: 1px 1px 0;">
-				<a href="3locks.aspx"><img border="0" alt="3 Lock" src="../SiteAssets/datasec/images/3 Locks-small.png" width="140" height="40"></a>
-			</li>
-			<li style="border: 1px solid #ddd; border-width: 1px 1px 0; ">
-				<a href="2locks.aspx"><img border="0" alt="2 Lock" src="../SiteAssets/datasec/images/2 Locks-small.png" width="90" height="40"></a>
-			</li>
-			<li style="border: 1px solid #ddd; border-width: 1px 1px 0;">
-				<a href="1lock.aspx"><img border="0" alt="1 Lock" src="../SiteAssets/datasec/images/1 Unlocked-small.png" width="50" height="40"></a>
-			</li>
-			<li style="border: 1px solid #ddd; border-width: 1px 1px 0; background-color:RGB(212,212,212);">
-				<a href="data-security.aspx" style="position:absolute; top:0; bottom:0; left:0; right:0; padding-top: 20px;"><b>How to Safeguard Data</b></a>
-			</li>
-	</ul>
-
+	
 	<div>
 		<center><h2>Guidelines for Safeguarding Institutional Data*</h2></center>
 		<center><p><font color="blue"><i>&nbsp; &nbsp; &nbsp; * These Guidelines are for the usage of the Pilot audience only at this time. They do not expressly deal with the development of procedures for vetting
@@ -58,7 +61,7 @@
 	</div>
 
 	<div class= "container-fluid" >
-		<img src="../SiteAssets/datasec/images/arrow2.png" alt="Mountain View" class="col-sm-12" style="padding: 0px"></img>
+		<img src="../SiteAssets/guidelines-and-security/images/arrow2.png" alt="Mountain View" class="col-sm-12" style="padding: 0px"></img>
 		<div class="lifecycle col-sm-12">
 			<button type="button" class="btnPhase" target = "1"  data-toggle="tooltip" data-placement="auto" title="The process of creating, changing, or obtaining data from different sources and bringing it together.">CAPTURE</button>
 
@@ -646,8 +649,8 @@
 					<h4>Capture -> Paper -> Fax</h4>
 					<table class="mytable" id="mytable1">
 						<tr>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td colspan="1">
@@ -714,8 +717,8 @@
 					<h4>Capture -> Paper-> Physical Document</h4>
 					<table class="mytable" >
 						<tr>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td>
@@ -792,7 +795,7 @@
 					<h4>Capture -> Electronic -> Desktop</h4>
 					<table class="mytable" >
 						<tr>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
 							<th> <img src="/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
@@ -891,8 +894,8 @@
 
 					<table class="mytable" >
 						<tr>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td  valign="top">
@@ -1022,8 +1025,8 @@
 					<table class="mytable" >
 						<tr>
 							<th></th>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td rowspan="4" valign ="top" style="font-size:16px">
@@ -1131,8 +1134,8 @@
 					<h4>Capture -> Spoken -> Phone</h4>
 					<table class="mytable" >
 						<tr>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td colspan ="2">
@@ -1205,8 +1208,8 @@
 					<h4>Store -> Paper -> Fax</h4>
 					<table class="mytable" >
 						<tr>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td>
@@ -1278,8 +1281,8 @@
 					<h4>Store -> Paper -> Copier</h4>
 					<table class="mytable" >
 						<tr>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td>
@@ -1348,8 +1351,8 @@
 					<h4>Store -> Paper -> Scanner</h4>
 					<table class="mytable" >
 						<tr>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td>
@@ -1420,8 +1423,8 @@
 					<h4>Store -> Paper -> Printer</h4>
 					<table class="mytable" >
 						<tr>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td>
@@ -1494,8 +1497,8 @@
 					<h4>Store -> Paper -> Physical Document</h4>
 					<table class="mytable" >
 						<tr>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td>
@@ -1556,8 +1559,8 @@
 					<h4>Store -> Electronic -> Desktop</h4>
 					<table class="mytable" >
 						<tr>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td>
@@ -1635,8 +1638,8 @@
 					<h4>Store -> Electronic -> Smartphone, Tablet, Laptop</h4>
 					<table class="mytable" >
 						<tr>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td valign="top">
@@ -1694,8 +1697,8 @@
 					<table class="mytable" >
 						<tr>
 							<th></th>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td rowspan="5" valign ="top" style="font-size:16px">
@@ -1799,8 +1802,8 @@
 					<h4>Store -> Spoken -> Phone</h4>
 					<table class="mytable" >
 						<tr>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td colspan ="2">
@@ -1849,8 +1852,8 @@
 					<h4>Use -> Paper -> Copier</h4>
 					<table class="mytable" >
 						<tr>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td colspan="2">
@@ -1899,8 +1902,8 @@
 					<h4>Use -> Paper -> Scanner</h4>
 					<table class="mytable" >
 						<tr>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td colspan="2">
@@ -1947,8 +1950,8 @@
 					<h4>Use -> Paper -> Printer</h4>
 					<table class="mytable" >
 						<tr>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td colspan="2">
@@ -1997,8 +2000,8 @@
 					<h4>Use -> Paper -> Physical Document</h4>
 					<table class="mytable" >
 						<tr>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td colspan="2">
@@ -2043,8 +2046,8 @@
 					<h4>Use -> Electronic -> Desktop</h4>
 					<table class="mytable" >
 						<tr>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td colspan="2">
@@ -2092,8 +2095,8 @@
 					<h4>Use -> Electronic -> Smartphone, Tablet, Laptop</h4>
 					<table class="mytable" >
 						<tr>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td colspan="2">
@@ -2138,8 +2141,8 @@
 					<h4>Use -> Electronic -> Storage Media</h4>
 					<table class="mytable" >
 						<tr>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td colspan="2">
@@ -2179,8 +2182,8 @@
 					<h4>Share -> Paper -> Fax</h4>
 					<table class="mytable" >
 						<tr>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td>
@@ -2237,8 +2240,8 @@
 					<h4>Share -> Paper -> Copier</h4>
 					<table class="mytable" >
 						<tr>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td>
@@ -2296,8 +2299,8 @@
 					<h4>Share -> Paper -> Scanner</h4>
 					<table class="mytable" >
 						<tr>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td>
@@ -2352,8 +2355,8 @@
 					<h4>Share -> Paper -> Printer</h4>
 					<table class="mytable" >
 						<tr>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td>
@@ -2411,8 +2414,8 @@
 					<h4>Share -> Paper -> Physical Document</h4>
 					<table class="mytable" >
 						<tr>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td>
@@ -2486,8 +2489,8 @@
 					<h4>Share -> Electronic -> Desktop</h4>
 					<table class="mytable" >
 						<tr>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td>
@@ -2563,8 +2566,8 @@
 					<h4>Share -> Electronic -> Smartphone, Tablet, Laptop</h4>
 					<table class="mytable" >
 						<tr>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td>
@@ -2691,8 +2694,8 @@
 					<h4>Share -> Electronic -> Storage Media</h4>
 					<table class="mytable" >
 						<tr>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td>
@@ -2762,8 +2765,8 @@
 					<h4>Share -> Spoken -> Phone</h4>
 					<table class="mytable" >
 						<tr>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td colspan="2">
@@ -2818,8 +2821,8 @@
 
 					<table class="mytable" >
 						<tr>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td colspan="2">
@@ -2860,8 +2863,8 @@
 					<h4>Dispose -> Paper -> Physical Document</h4>
 					<table class="mytable" >
 						<tr>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td colspan="2">
@@ -2904,8 +2907,8 @@
 					<h5><i>Note:</i>Same guidelines apply to <br/> Dispose -> Paper -> Printer</h5>
 					<table class="mytable" >
 						<tr>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td colspan="2">
@@ -2973,8 +2976,8 @@
 					<h5><i>Note:</i>Same guidelines apply to <br/> Dispose -> Electronic -> Smartphone, Tablet, Laptop; Storage Media; Email; Instant Messenger; Cloud Storage; Network Storage</h5>		
 					<table class="mytable">
 						<tr>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td colspan="2">
@@ -3041,8 +3044,8 @@
 					<h4>Dispose -> Spoken -> Phone</h4>
 					<table class="mytable" >
 						<tr>
-							<th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-							<th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+							<th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
 						</tr>
 						<tr>
 							<td colspan="2">
@@ -3079,8 +3082,8 @@
           <h4>Store -> Electronic -> Email</h4>
           <table class="mytable" >
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td>
@@ -3172,8 +3175,8 @@
           <h4>Store -> Electronic -> Cloud Storage</h4>
           <table class="mytable" >
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td>
@@ -3236,8 +3239,8 @@
           <h4>Store -> Electronic -> Network Storage</h4>
           <table class="mytable" >
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td>
@@ -3312,8 +3315,8 @@
           <h4>Capture -> Electronic -> Email</h4>
           <table class="mytable" >
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td>
@@ -3386,8 +3389,8 @@
           <h4>Capture -> Electronic -> Cloud Storage</h4>
           <table class="mytable" >
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td>
@@ -3451,8 +3454,8 @@
           <h4>Capture -> Electronic -> Network Storage</h4>
           <table class="mytable" >
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td>
@@ -3527,8 +3530,8 @@
           <h5><i>Note:</i>Same guidelines apply to <br/> Archive -> Paper -> Copier; Scanner; Printer; Physical Storage</h5>
           <table class="mytable" >
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td colspan="2">
@@ -3568,8 +3571,8 @@
           <h4>Archive -> Spoken -> Phone</h4>
           <table class="mytable" >
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td colspan="2">
@@ -3611,8 +3614,8 @@
           <h5><i>Note:</i>Same guidelines apply to <br/> Dispose -> Paper -> Scanner </h5>
           <table class="mytable">
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td colspan="2">
@@ -3674,8 +3677,8 @@
           <h4>Capture -> Electronic -> Instant Messenger</h4>
           <table class="mytable" >
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td>
@@ -3726,8 +3729,8 @@
           <h4>Store -> Electronic -> Instant Messenger</h4>
           <table class="mytable" >
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td colspan="2">
@@ -3760,8 +3763,8 @@
           <h4>Store -> Electronic -> Instant Messenger</h4>
           <table class="mytable" >
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td colspan="2">
@@ -3793,8 +3796,8 @@
           <h4>Use -> Electronic -> Email</h4>
           <table class="mytable" >
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td>
@@ -3852,8 +3855,8 @@
           <h4>Use -> Electronic -> Instant Messenger</h4>
           <table class="mytable" >
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td colspan="2">
@@ -3890,8 +3893,8 @@
           <h4>Use -> Electronic -> Cloud Storage</h4>
           <table class="mytable" >
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td colspan="2">
@@ -3931,8 +3934,8 @@
           <h4>Use -> Electronic -> Network Storage</h4>
           <table class="mytable" >
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td colspan="2">
@@ -3973,8 +3976,8 @@
           <h4>Share -> Electronic -> Email</h4>
           <table class="mytable" >
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td>
@@ -4030,8 +4033,8 @@
           <h4>Share -> Electronic -> Instant Messenger</h4>
           <table class="mytable" >
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td colspan="2">
@@ -4070,8 +4073,8 @@
           <h4>Share -> Electronic -> Cloud Storage</h4>
           <table class="mytable" >
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td colspan="2">
@@ -4110,8 +4113,8 @@
           <h4>Share -> Electronic -> Network Storage</h4>
           <table class="mytable" >
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td colspan="2">
@@ -4143,8 +4146,8 @@
           <h5><i>Note:</i>Same guidelines apply to <br/> Archive -> Paper -> Fax; Scanner; Printer; Physical Storage</h5>
           <table class="mytable" >
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td colspan="2">
@@ -4184,8 +4187,8 @@
           <h5><i>Note:</i>Same guidelines apply to <br/> Archive -> Paper -> Fax; Copier; Printer; Physical Storage</h5>
           <table class="mytable" >
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td colspan="2">
@@ -4227,8 +4230,8 @@
           <h5><i>Note:</i>Same guidelines apply to <br/> Archive -> Paper -> Fax; Copier; Scanner; Physical Storage</h5>
           <table class="mytable" >
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td colspan="2">
@@ -4269,8 +4272,8 @@
           <h5><i>Note:</i>Same guidelines apply to <br/> Archive -> Paper -> Fax; Copier; Scanner; Printer</h5>
           <table class="mytable" >
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td colspan="2">
@@ -4311,8 +4314,8 @@
           <h5><i>Note:</i>Same guidelines apply to <br/> Archive -> Electronic -> Desktop; Storage Media; Email; Instant Messenger; Cloud Storage; Network Storage</h5>
           <table class="mytable" >
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td colspan="2">
@@ -4353,8 +4356,8 @@
           <h5><i>Note:</i>Same guidelines apply to <br/>Archive -> Electronic -> Desktop; Smartphone, Tablet, Laptop; Email; Instant Messenger; Cloud Storage; Network Storage</h5>
           <table class="mytable" >
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td colspan="2">
@@ -4397,8 +4400,8 @@
           <h5><i>Note:</i>Same guidelines apply to <br/> Archive -> Electronic -> Desktop; Smartphone, Tablet, Laptop; Storage Media; Instant Messenger; Cloud Storage; Network Storage</h5>
           <table class="mytable" >
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td colspan="2">
@@ -4441,8 +4444,8 @@
           <h5><i>Note:</i>Same guidelines apply to <br/> Archive -> Electronic -> Desktop; Smartphone, Tablet, Laptop; Storage Media; Email; Instant Messenger; Network Storage</h5>
           <table class="mytable" >
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td colspan="2">
@@ -4484,8 +4487,8 @@
           <h5><i>Note:</i>Same guidelines apply to <br/> Archive -> Electronic -> Desktop; Smartphone, Tablet, Laptop; Storage Media; Email; Instant Messenger; Cloud Storage</h5>
           <table class="mytable" >
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td colspan="2">
@@ -4528,8 +4531,8 @@
           <h5><i>Note:</i>Same guidelines apply to <br/> Dispose -> Paper -> Fax</h5>
           <table class="mytable" >
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td colspan="2">
@@ -4597,8 +4600,8 @@
           <h5><i>Note:</i>Same guidelines apply to <br/> Dispose -> Paper -> Copier</h5>
           <table class="mytable">
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td colspan="2">
@@ -4663,8 +4666,8 @@
           <h5><i>Note:</i>Same guidelines apply to <br/> Dispose -> Electronic -> Desktop; Storage Media; Email; Instant Messenger; Cloud Storage; Network Storage</h5>
           <table class="mytable">
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td colspan="2">
@@ -4731,8 +4734,8 @@
           <h5><i>Note:</i>Same guidelines apply to <br/> Dispose -> Electronic -> Desktop; Smartphone, Tablet, Laptop; Email; Instant Messenger; Cloud Storage; Network Storage</h5>
           <table class="mytable">
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td colspan="2">
@@ -4798,8 +4801,8 @@
           <h5><i>Note:</i>Same guidelines apply to <br/> Dispose -> Electronic -> Desktop; Smartphone, Tablet, Laptop; Storage Media; Instant Messenger; Cloud Storage; Network Storage</h5>
           <table class="mytable">
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td colspan="2">
@@ -4866,8 +4869,8 @@
           <h5><i>Note:</i>Same guidelines apply to <br/> Dispose -> Electronic -> Desktop; Smartphone, Tablet, Laptop; Storage Media; Email; Cloud Storage; Network Storage</h5>
           <table class="mytable">
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td colspan="2">
@@ -4932,8 +4935,8 @@
           <h5><i>Note:</i>Same guidelines apply to <br/> Dispose -> Electronic -> Desktop; Smartphone, Tablet, Laptop; Storage Media; Email; Instant Messenger; Network Storage</h5>
           <table class="mytable">
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td colspan="2">
@@ -4998,8 +5001,8 @@
           <h5><i>Note:</i>Same guidelines apply to <br/> Dispose -> Electronic -> Desktop; Smartphone, Tablet, Laptop; Storage Media; Email; Instant Messenger; Cloud Storage</h5>
           <table class="mytable">
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td colspan="2">
@@ -5065,8 +5068,8 @@
           <h5><i>Note:</i>Same guidelines apply to <br/> Archive -> Electronic -> Desktop; Smartphone, Tablet, Laptop; Storage Media; Email; Cloud Storage; Network Storage</h5>
           <table class="mytable" >
             <tr>
-              <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-              <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+              <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
             </tr>
             <tr>
               <td colspan="2">
@@ -5096,7 +5099,7 @@
   </div>
 
 
-  <img src="../SiteAssets/datasec/images/arrow3.png" alt="Mountain View" class="col-sm-12" style="padding: 0px" ></img>
+  <img src="../SiteAssets/guidelines-and-security/images/arrow3.png" alt="Mountain View" class="col-sm-12" style="padding: 0px" ></img>
 
 
   <div id="heading4" class="col-sm-12" data-toggle="tooltip" data-placement="auto" title="The process of reporting an event of attempted or actual unauthorized access, use, disclosure, alteration or destruction of Risk Level data.">INCIDENT REPORT</div>
@@ -5105,8 +5108,8 @@
   <div id="flipPanel4" class="col-sm-12">
     <table class="mytable" >
       <tr>
-        <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-        <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+        <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+        <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
       </tr>
       <tr>
         <td colspan ="2">
@@ -5138,8 +5141,8 @@
   <div id="flipPanel5" class="col-sm-12">
     <table class="mytable" >
       <tr>
-        <th> <img src="../SiteAssets/datasec/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
-        <th> <img src="../SiteAssets/datasec/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
+        <th> <img src="../SiteAssets/guidelines-and-security/images/4 Locks-small.png" alt="4 LOCKS" width = "150" height = "30"></th>
+        <th> <img src="../SiteAssets/guidelines-and-security/images/3 Locks-small.png" alt="3 LOCKS" width = "120" height = "30"></th>
       </tr>
       <tr>
         <td colspan ="2">
