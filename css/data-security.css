@@ -42,6 +42,7 @@ body{
 	margin-top:5px;
 }
 
+
 .lifecycle{
 	position:relative;
 	text-align:center;
@@ -248,10 +249,11 @@ td{
 	padding: 0;  
 }
 
-li { padding: 0; }
-li a { display: block; }
+.li { padding: 0; }
 
-li > a:focus{
+.li a { display: inline;}
+
+.li > a:focus{
 	background-color: blue;
 }
 
